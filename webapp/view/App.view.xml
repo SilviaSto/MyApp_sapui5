@@ -12,4 +12,9 @@
 		</pages>
 	</Carousel>
 	<Button text="Click Me!" press="onShowHello"/>
+	<Input
+		value="{textPanel>/recipient/name}"
+		description="Hello {textPanel>/recipient/name}"
+		valueLiveUpdate="true"
+		width="60%"/>
 </mvc:View>

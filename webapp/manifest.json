@@ -44,6 +44,12 @@
 				}
 			}
 		},
+		"models": {
+			"textPanel": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/TextPanel.json"
+			}
+		},
 		"contentDensities": {
 			"compact": true,
 			"cozy": true
