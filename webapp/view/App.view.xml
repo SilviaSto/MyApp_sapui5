@@ -11,7 +11,9 @@
 				height="400px"/>
 		</pages>
 	</Carousel>
-	<Button text="Click Me!" press="onShowHello"/>
+	<Button 
+		text="{i18n>showHelloButtonText}" 
+		press="onShowHello"/>
 	<Input
 		value="{textPanel>/recipient/name}"
 		description="Hello {textPanel>/recipient/name}"
