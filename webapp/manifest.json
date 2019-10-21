@@ -55,6 +55,10 @@
 			"textPanel": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "model/TextPanel.json"
+			},
+			"address": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/Address.json"
 			}
 		},
 		"contentDensities": {
